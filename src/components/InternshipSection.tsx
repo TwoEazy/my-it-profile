@@ -1,5 +1,6 @@
-import { ExternalLink, Calendar, Shield } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import iforceLogo from "@/assets/iforce-logo.png";
 
 const InternshipSection = () => {
   return (
@@ -14,8 +15,8 @@ const InternshipSection = () => {
 
         <div className="bg-card border border-border rounded-xl p-8 hover:border-primary/50 transition-all duration-300">
           <div className="flex items-start gap-4 mb-6">
-            <div className="p-3 bg-primary/10 rounded-lg">
-              <Shield className="w-8 h-8 text-primary" />
+            <div className="p-3 bg-white rounded-lg">
+              <img src={iforceLogo} alt="I-FORCE Logo" className="w-24 h-auto" />
             </div>
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-1">
