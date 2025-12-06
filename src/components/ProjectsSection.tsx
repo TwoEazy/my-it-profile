@@ -5,7 +5,7 @@ const ProjectsSection = () => {
   const projects = [
     {
       icon: Shield,
-      title: "Mobile Security App",
+      title: "Goldy Notes",
       description: "A feature-rich, security-focused Android note-taking application built with modern Android development practices. Implements encrypted note storage, user authentication, and advanced security monitoring to demonstrate cybersecurity principles in mobile application development.",
       tech: ["Kotlin", "Jetpack Compose", "Android SDK", "SQLite"],
       color: "from-cyan-500/20 to-blue-500/20"
