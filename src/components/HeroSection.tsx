@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, ChevronDown, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -56,6 +56,17 @@ const HeroSection = () => {
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Get in Touch
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg"
+              className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary font-mono gap-2"
+              asChild
+            >
+              <a href="/MoaazEljamous-Resume.pdf" download>
+                <FileDown className="w-4 h-4" />
+                Download CV
+              </a>
             </Button>
           </div>
 
