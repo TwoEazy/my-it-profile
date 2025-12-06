@@ -135,21 +135,21 @@ const HackathonsSection = () => {
                 <div>
                   <h4 className="text-sm font-mono text-primary mb-3">Event Photos</h4>
                   <div className="grid md:grid-cols-2 gap-4">
-                    <div className="relative overflow-hidden rounded-xl border border-border group/img aspect-[3/4]">
+                    <div className="relative overflow-hidden rounded-xl border border-border group/img">
                       <img 
                         src={hackathonEvent} 
                         alt="At Hack The Future event" 
-                        className="w-full h-full object-cover object-top transition-transform duration-300 group-hover/img:scale-105"
+                        className="w-full h-auto object-contain transition-transform duration-300 group-hover/img:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity duration-300 flex items-end p-4">
                         <span className="text-sm text-foreground font-medium">Hack The Future 2024</span>
                       </div>
                     </div>
-                    <div className="relative overflow-hidden rounded-xl border border-border group/img aspect-[3/4]">
+                    <div className="relative overflow-hidden rounded-xl border border-border group/img">
                       <img 
                         src={hackathonProject} 
                         alt="Leviathan's Ledger project dashboard" 
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover/img:scale-105"
+                        className="w-full h-64 object-cover transition-transform duration-300 group-hover/img:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity duration-300 flex items-end p-4">
                         <span className="text-sm text-foreground font-medium">Our Project Dashboard</span>
