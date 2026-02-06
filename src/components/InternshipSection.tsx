@@ -8,7 +8,7 @@ const InternshipSection = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 font-mono">
-            {"<"}Upcoming Internship{"/>"}
+            {"<"}Current Internship{"/>"}
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto" />
         </div>
@@ -21,7 +21,7 @@ const InternshipSection = () => {
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-1">
                 <span className="px-2 py-1 bg-primary/20 text-primary text-xs font-mono rounded">
-                  Upcoming
+                  current internship
                 </span>
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-1">
