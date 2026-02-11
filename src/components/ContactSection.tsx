@@ -10,12 +10,6 @@ const ContactSection = () => {
       href: "mailto:moaazeljamous@protonmail.com"
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: "+32 456 113 376",
-      href: "tel:+32456113376"
-    },
-    {
       icon: Github,
       label: "GitHub",
       value: "TwoEazy",
